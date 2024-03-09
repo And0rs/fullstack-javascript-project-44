@@ -1,6 +1,6 @@
 import readlineSync from 'readline-sync';
 
-export default (question, rightAnswer, wrongAnswer, userName, currentScore) => {
+export default (question, rightAnswer, userName, currentScore) => {
   let counter = currentScore;
   const answer = readlineSync.question(`Question: ${question}\nYour answer: `);
   if (rightAnswer === answer) {

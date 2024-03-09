@@ -19,8 +19,7 @@ export default () => {
   do {
     const question = getRandom();
     const rightAnswer = isEven(question);
-    const wrongAnswer = !isEven(question);
 
-    counter = questionAnswer(question, rightAnswer, wrongAnswer, userName, counter);
+    counter = questionAnswer(question, rightAnswer, userName, counter);
   } while (counter < 3 && counter !== 0);
 };
