@@ -1,6 +1,11 @@
 import readlineSync from 'readline-sync';
 
-export default (question, rightAnswer, userName, currentScore) => {
+export const getRandom = (max) => {
+  const randomInt = (Math.floor(Math.random() * max));
+  return randomInt;
+};
+
+export const questionAnswer = (question, rightAnswer, userName, currentScore) => {
   let counter = currentScore;
   const answer = readlineSync.question(`Question: ${question}\nYour answer: `);
   if (rightAnswer === answer) {

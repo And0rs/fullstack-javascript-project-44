@@ -1,11 +1,5 @@
 import sayGreetings from './cli.js';
-import questionAnswer from './index.js';
-
-const getRandom = () => {
-  const max = 1000;
-  const randomInt = (Math.floor(Math.random() * max));
-  return randomInt;
-};
+import { questionAnswer, getRandom } from './index.js';
 
 const isEven = (num) => {
   const result = (num % 2 === 0) ? 'yes' : 'no';
@@ -17,7 +11,7 @@ export default () => {
   console.log('Answer "yes" if the number is even, otherwise answer "no".');
   let counter = 0;
   do {
-    const question = getRandom();
+    const question = getRandom(1000);
     const rightAnswer = isEven(question);
 
     counter = questionAnswer(question, rightAnswer, userName, counter);
