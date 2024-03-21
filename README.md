@@ -6,4 +6,5 @@
 <ul>
 <li><a href="https://asciinema.org/a/645795">Brain even</a></li>
 <li><a href="https://asciinema.org/a/N61lTkCx6Pa71THFe8u8c73cO">Brain calc</a></li>
+<li><a href="https://asciinema.org/a/WwF5qeSC1gYde2OX7gsDkRGqS">Brain gcd</a></li>
 </ul>
