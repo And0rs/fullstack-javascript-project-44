@@ -8,5 +8,7 @@
 <li><a href="https://asciinema.org/a/N61lTkCx6Pa71THFe8u8c73cO">Brain calc</a></li>
 <li><a href="https://asciinema.org/a/WwF5qeSC1gYde2OX7gsDkRGqS">Brain gcd</a></li>
 <li><a href="https://asciinema.org/a/s8MRSqNUiw19sMwr3utKZOyuz">Brain progression</a></li>
+<li><a href="https://asciinema.org/a/TfCAH3BZ1swe0H6cc1oM6f0Jv">Brain prime</a></li>
+
 
 </ul>
