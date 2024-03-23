@@ -15,7 +15,7 @@ export default () => {
     const progression = [];
     start = getRandom(90);
     step = getRandom(10);
-    end = start + (step * 10);
+    end = start + (step * 9);
     hiddenNumber = getRandom(10);
 
     for (let i = start; i <= end; i += step) {
