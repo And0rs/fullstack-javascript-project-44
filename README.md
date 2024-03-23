@@ -4,6 +4,7 @@
 
 <h2 style='text-align: center'> Prepare and launch </h2>
 <ol>
+<li>Clone the project</li>
 <li>npm ci</li>
 <li>sudo npm link</li>
 <li>choose and launch game, just put name in console:</li>
