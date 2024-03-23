@@ -7,13 +7,13 @@
 <li>npm ci</li>
 <li>sudo npm link</li>
 <li>choose and launch game, just put name in console:</li>
-<ol>
+<ul>
 <li>brain-even</li>
 <li>brain-calc</li>
 <li>brain-gcd</li>
 <li>brain-progression</li>
 <li>brain-prime</li>
-</ol>
+</ul>
 </ol>
 
 <h2 style='text-align: center'> Preview </h2>
