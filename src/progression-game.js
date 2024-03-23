@@ -8,10 +8,10 @@ export default () => {
 
   do {
     const progression = [];
-    let start = getRandom(90);
-    let step = getRandom(10);
-    let end = start + (step * 9);
-    let hiddenNumber = getRandom(10);
+    const start = getRandom(90);
+    const step = getRandom(10);
+    const end = start + (step * 9);
+    const hiddenNumber = getRandom(10);
 
     for (let i = start; i <= end; i += step) {
       progression.push(i);
