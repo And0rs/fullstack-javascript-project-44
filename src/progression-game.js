@@ -1,11 +1,6 @@
 import sayGreetings from './cli.js';
 import { questionAnswer, getRandom } from './index.js';
 
-let start = 0;
-let end = 0;
-let step = 0;
-let hiddenNumber = 0;
-
 export default () => {
   const userName = sayGreetings();
   console.log('What number is missing in the progression?');
@@ -13,10 +8,10 @@ export default () => {
 
   do {
     const progression = [];
-    start = getRandom(90);
-    step = getRandom(10);
-    end = start + (step * 9);
-    hiddenNumber = getRandom(10);
+    let start = getRandom(90);
+    let step = getRandom(10);
+    let end = start + (step * 9);
+    let hiddenNumber = getRandom(10);
 
     for (let i = start; i <= end; i += step) {
       progression.push(i);
