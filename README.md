@@ -7,7 +7,7 @@
 <li>Clone the project</li>
 <li>npm ci</li>
 <li>sudo npm link</li>
-<li>choose and launch game, just put name in console:</li>
+<li>Сhoose and launch game, just put name in console:</li>
 <ul>
 <li>brain-even</li>
 <li>brain-calc</li>
