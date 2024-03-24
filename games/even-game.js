@@ -1,5 +1,5 @@
-import sayGreetings from './cli.js';
-import { questionAnswer, getRandom } from './index.js';
+import sayGreetings from '../src/cli.js';
+import { questionAnswer, getRandom } from '../src/index.js';
 
 const isEven = (num) => {
   const result = (num % 2 === 0) ? 'yes' : 'no';

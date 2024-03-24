@@ -1,5 +1,5 @@
-import sayGreetings from './cli.js';
-import { questionAnswer, getRandom } from './index.js';
+import sayGreetings from '../src/cli.js';
+import { questionAnswer, getRandom } from '../src/index.js';
 
 let lowerNumber = 0;
 let higherNumber = 0;
