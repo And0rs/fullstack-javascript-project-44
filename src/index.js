@@ -18,7 +18,7 @@ export const questionAnswer = (question, rightAnswer, userName, currentScore) =>
   } else {
     counter = 0;
     console.log(`'${answer}' is wrong answer ;(. Correct answer is '${rightAnswer}'.`);
-    console.log(`Let's try again, ${userName}!`)
+    console.log(`Let's try again, ${userName}!`);
   }
   return counter;
 };
